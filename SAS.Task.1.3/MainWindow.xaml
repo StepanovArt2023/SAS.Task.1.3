@@ -16,6 +16,15 @@
         <Grid >
             <Image Source="/Images/main_bg.png"
                    Stretch="UniformToFill"/>
+            <StackPanel HorizontalAlignment="Right"
+                        VerticalAlignment="Stretch">
+                <Button Background="Transparent"
+                        x:Name="BtnTask1"
+                        Click="BtnTask1_Click"
+                        Foreground="Black"
+                        Content="✕"
+                        BorderBrush="Transparent" Width="40" Height="40"  FontSize="28"/>
+            </StackPanel>
             <Border MouseDown="Border_MouseDown">
                 <Grid >
                     <Grid.RowDefinitions>
