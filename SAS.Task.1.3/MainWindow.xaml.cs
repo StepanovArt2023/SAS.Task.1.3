@@ -39,5 +39,9 @@ namespace SAS.Task._1._3
                 this.WindowState = WindowState.Normal;
             }
         }
+        private void BtnTask1_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
     }
 }
